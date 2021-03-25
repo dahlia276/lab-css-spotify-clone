@@ -1,8 +1,91 @@
-/*
-Colors:
+.logo{
+    position: fixed;
+    float: left;
+    animation: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: 10s;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0)
+    }
+    40%{
+        transform: translateY(-30px);
+        
+    }
+    60% {
+        transform: translateY(15px);
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+    }
+}
 
-*/
+.nav-bar{
+    list-style-type: none;
+    margin:  0 0 10px 0;
+    padding: 0 0 10px 0;
+   overflow: hidden;
+    float: right;
+    display: flex;
+    justify-content: center;
+   }
+   
+.s2 {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.whats-heading {
+    text-align: center;
+}
+.songs{
+    text-align: center;
+    position: relative;
+    left: 10px;
+}
+
+.HD{
+    text-align: center;
+}
+
+.stream{
+    text-align: center;
+    right: 10px;
+}
+
+.background-word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.title-green {
+    color: #00B172;
+}
+.white-text {
+    color: white;
+    text-align: left;
+}
+.txt {
+    color: 1A1A1A;
+}
+.last-section{
+    background-color: #00B172;
+    position: relative;
+}
+.spotify-app {
+    position: absolute;
+    top: 17px;
+    width: 150px;
+    right: 50px;
+}
+.white-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+    margin-bottom: ;
+    width: 5%;
+}
